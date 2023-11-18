@@ -1,4 +1,5 @@
 {
+  "name": "turbo-template",
   "private": true,
   "repository": {
     "url": "https://github.com/sid-arroui/turbo-template"
@@ -14,7 +15,14 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore"
   },
   "devDependencies": {
-    "prettier": "^2.7.1",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "latest",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.1.0",
+    "prettier": "^3.1.0",
     "turbo": "latest"
   },
   "packageManager": "yarn@1.22.19"
